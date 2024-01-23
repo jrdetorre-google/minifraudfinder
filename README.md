@@ -28,7 +28,7 @@ PROJECT_NUM=$(gcloud projects list --filter="$PROJECT_ID" --format="value(PROJEC
 
 gcloud projects add-iam-policy-binding $PROJECT_ID \
       --member="serviceAccount:${PROJECT_NUM}-compute@developer.gserviceaccount.com"\
-      --role='aiplatform.serviceAgent'
+      --role='roles/aiplatform.serviceAgent'
 
 gcloud projects add-iam-policy-binding $PROJECT_ID \
       --member="serviceAccount:${PROJECT_NUM}-compute@developer.gserviceaccount.com"\
