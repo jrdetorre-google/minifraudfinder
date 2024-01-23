@@ -21,7 +21,7 @@ gcloud services enable bigquery.googleapis.com
 gcloud services enable artifactregistry.googleapis.com
 gcloud services enable iam.googleapis.com
 
-
+sleep 60
 # Run the following command to grant the Compute Engine default service account access to read and write pipeline artifacts in Google Cloud Storage.
 PROJECT_ID=$(gcloud config get-value project)
 PROJECT_NUM=$(gcloud projects list --filter="$PROJECT_ID" --format="value(PROJECT_NUMBER)")
