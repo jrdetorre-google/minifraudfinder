@@ -11,3 +11,4 @@ kfp<=2.3.0
 apache_beam[gcp]==2.53.0
 
 bigframes==0.21.0
+pandas-gbq
