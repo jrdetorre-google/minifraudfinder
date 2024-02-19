@@ -10,4 +10,4 @@ xgboost<=2.0.1
 kfp<=2.3.0
 apache_beam[gcp]==2.53.0
 
-bigframes==0.19.1
+bigframes==0.21.0
